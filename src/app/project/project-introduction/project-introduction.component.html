@@ -1,0 +1,39 @@
+<div class="container mt-5">
+  <div class="card shadow-lg p-4">
+    <div class="row g-4">
+
+      <!-- Imagen grande del proyecto -->
+      <div class="col-md-6">
+        <img [src]="this.projectDetail.imageUrl" class="img-fluid rounded" alt="Proyecto">
+      </div>
+
+      <!-- Información del proyecto -->
+      <div class="col-md-6">
+        <h2 class="fw-bold">{{this.projectDetail.title}}</h2>
+        <p class="text-muted">Fecha de creación: <strong>{{this.projectDetail.creationDate}}</strong></p>
+        <p class="lead">{{this.projectDetail.description}}</p>
+
+        <!-- Detalles del proyecto -->
+        <ul class="list-group mb-3">
+          <li class="list-group-item"><strong>Lenguaje:</strong> {{this.projectDetail.language}}</li>
+          <li class="list-group-item"><strong>Framework:</strong> {{this.projectDetail.framework}}</li>
+          <li class="list-group-item"><strong>Base de Datos:</strong> {{this.projectDetail.database}}</li>
+          <li class="list-group-item"><strong>Hosting:</strong> {{this.projectDetail.hosting}}</li>
+        </ul>
+
+        <!-- Código fuente -->
+<!--        <a href="https://github.com/usuario/repositorio" target="_blank" class="btn btn-dark d-flex align-items-center">-->
+<!--          <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="25" height="25" class="me-2"> Ver Código en GitHub-->
+<!--        </a>-->
+      </div>
+    </div>
+
+    <!-- Descripción detallada -->
+    <div class="mt-4">
+      <h4>Descripción Detallada</h4>
+      <p>
+        {{this.projectDetail.details}}
+      </p>
+    </div>
+  </div>
+</div>
