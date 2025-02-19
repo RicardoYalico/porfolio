@@ -4,8 +4,11 @@
 
       <!-- Imagen grande del proyecto -->
       <div class="col-md-6">
-        <img [src]="this.projectDetail.imageUrl" class="img-fluid rounded" alt="Proyecto">
+        <a [href]="this.projectDetail.websiteUrl" target="_blank">
+          <img [src]="this.projectDetail.imageUrl" class="img-fluid rounded" alt="Proyecto" style="cursor: pointer;">
+        </a>
       </div>
+
 
       <!-- Información del proyecto -->
       <div class="col-md-6">
@@ -21,10 +24,11 @@
           <li class="list-group-item"><strong>Hosting:</strong> {{this.projectDetail.hosting}}</li>
         </ul>
 
-        <!-- Código fuente -->
-<!--        <a href="https://github.com/usuario/repositorio" target="_blank" class="btn btn-dark d-flex align-items-center">-->
+         App Web
+        <a href="https://ecommerce-git-master-ricardoyalicos-projects.vercel.app" target="_blank" class="btn d-flex align-items-center">
+          https://ecommerce-git-master-ricardoyalicos-projects.vercel.app
 <!--          <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="25" height="25" class="me-2"> Ver Código en GitHub-->
-<!--        </a>-->
+        </a>
       </div>
     </div>
 
@@ -36,4 +40,20 @@
       </p>
     </div>
   </div>
+
+<!--  <pre class="p-3 rounded"><code>-->
+<!--  using System;-->
+
+<!--  namespace HelloWorld-->
+<!--      &#123;-->
+<!--      class Program-->
+<!--      &#123;-->
+<!--          static void Main()-->
+<!--      &#123;-->
+<!--      Console.WriteLine("Hola, mundo en .NET!");-->
+<!--          &#125;-->
+<!--      &#125;-->
+<!--  &#125;-->
+<!--    </code></pre>-->
+
 </div>

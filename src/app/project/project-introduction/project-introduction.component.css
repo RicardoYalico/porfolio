@@ -1,0 +1,19 @@
+pre code {
+  display: block;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+@media (prefers-color-scheme: dark) {
+  pre code {
+    background-color: #343a40;
+    color: #ffffff;
+  }
+}
+@media (prefers-color-scheme: light) {
+  pre code {
+    background-color: #f8f9fa;
+    color: #212529;
+  }
+}
+
+
