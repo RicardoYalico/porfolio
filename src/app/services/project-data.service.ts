@@ -21,11 +21,11 @@ export class ProjectDataService {
     {
       id: 2,
       title: "Booking",
-      imageUrl: "https://api.screenshotmachine.com?key=ae48bd&url=booking-web-vpwf.onrender.com&dimension=1024x768",
+      imageUrl: "https://api.screenshotmachine.com?key=ae48bd&url=booking-web-iumw.onrender.com&dimension=1024x768",
       creationDate: "20 de Febrero, 2024",
       description: "Sistemas de reservas para hoteles con panel de administración en Laravel y php",
       language: "Php",
-      websiteUrl: "https://booking-web-vpwf.onrender.com",
+      websiteUrl: "https://booking-web-iumw.onrender.com",
       framework: "Laravel",
       database: "Mysql",
       hosting: "Render.com",
