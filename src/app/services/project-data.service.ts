@@ -20,17 +20,16 @@ export class ProjectDataService {
     },
     {
       id: 2,
-      title: "Booking",
-      imageUrl: "https://api.screenshotmachine.com?key=ae48bd&url=booking-web-iumw.onrender.com&dimension=1024x768",
+      title: "Gestión de Recursos Humanos",
+      imageUrl: "https://api.screenshotmachine.com?key=ae48bd&url=human-resources-pub-sub.vercel.app&dimension=1024x768",
       creationDate: "20 de Febrero, 2024",
-      description: "Sistemas de reservas para hoteles con panel de administración en Laravel y php",
-      language: "Php",
-      websiteUrl: "https://booking-web-iumw.onrender.com",
-      framework: "Laravel",
+      description: "Sistemas de gestión para el área de recursos humanos en Angular",
+      language: "Typescript",
+      websiteUrl: "https://human-resources-pub-sub.vercel.app",
+      framework: "Angular",
       database: "Mysql",
-      hosting: "Render.com",
-      details: "Sistema de reservas para hoteles con panel de administración desarrollado en Laravel, PHP y MySQL. La aplicación es completamente responsiva y ha sido creada desde cero con un diseño personalizado. Su objetivo es ofrecer una plataforma moderna y eficiente para la gestión de reservas hoteleras, siguiendo principios clave de la ingeniería de software. Además de la implementación, se ha elaborado una documentación detallada que describe el desarrollo y la estructura del proyecto. El sistema está alojado en Render.com. Para ingresar y probar el aplicativo usar las siguiente credenciales: usuario = johndoe contraseña = secret"
-    }
+      hosting: "Vercel.com",
+      details: "El Sistema de Gestión de Recursos Humanos es una plataforma web desarrollada en Angular, con base de datos MySQL y desplegada en Vercel. Permite administrar empleados, controlar asistencia, gestionar nómina y automatizar procesos clave del área de RRHH, mejorando la eficiencia y toma de decisiones."}
   ];
   constructor() { }
 
