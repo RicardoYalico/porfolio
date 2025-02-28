@@ -21,14 +21,14 @@ export class ProjectDataService {
     {
       id: 2,
       title: "Gestión de Recursos Humanos",
-      imageUrl: "https://api.screenshotmachine.com?key=ae48bd&url=human-resources-pub-sub.vercel.app&dimension=1024x768",
+      imageUrl: "https://api.screenshotmachine.com?key=ae48bd&url=rrhh.beesoftware.net&dimension=1024x768",
       creationDate: "20 de Febrero, 2024",
       description: "Sistemas de gestión para el área de recursos humanos en Angular",
       language: "Typescript",
-      websiteUrl: "https://human-resources-pub-sub.vercel.app",
+      websiteUrl: "https://rrhh.beesoftware.net/",
       framework: "Angular",
       database: "Mysql",
-      hosting: "Vercel.com",
+      hosting: "VPS Cloudfare",
       details: "El Sistema de Gestión de Recursos Humanos es una plataforma web desarrollada en Angular, con base de datos MySQL y desplegada en Vercel. Permite administrar empleados, controlar asistencia, gestionar nómina y automatizar procesos clave del área de RRHH, mejorando la eficiencia y toma de decisiones."}
   ];
   constructor() { }
