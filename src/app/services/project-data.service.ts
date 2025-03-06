@@ -29,7 +29,21 @@ export class ProjectDataService {
       framework: "Angular",
       database: "Mysql",
       hosting: "VPS Cloudfare",
-      details: "El Sistema de Gestión de Recursos Humanos es una plataforma web desarrollada en Angular, con base de datos MySQL y desplegada en Vercel. Permite administrar empleados, controlar asistencia, gestionar nómina y automatizar procesos clave del área de RRHH, mejorando la eficiencia y toma de decisiones."}
+      details: "El Sistema de Gestión de Recursos Humanos es una plataforma web desarrollada en Angular, con base de datos MySQL y desplegada en Vercel. Permite administrar empleados, controlar asistencia, gestionar nómina y automatizar procesos clave del área de RRHH, mejorando la eficiencia y toma de decisiones."
+    },
+    {
+      id: 3,
+      title: "WebSocket",
+      imageUrl: "https://api.screenshotmachine.com?key=ae48bd&url=websocket.beesoftware.net&dimension=1024x768",
+      creationDate: "20 de Febrero, 2024",
+      description: "Un chat particular utilizando Websocket",
+      language: "Php",
+      websiteUrl: "https://websocket.beesoftware.net/",
+      framework: "Laravel",
+      database: "Mysql",
+      hosting: "VPS Cloudfare",
+      details: "En este proyecto podemos observar la aplicación de un websocket desplegado en un servidor privado, nos ofrece la facilidad de poder comunicarnos mentiendo un canal abierto. Este proyecto ha sido desarrollado utilizando as tecnoogias PHP, Mysql y Laravel!"
+    }
   ];
   constructor() { }
 
